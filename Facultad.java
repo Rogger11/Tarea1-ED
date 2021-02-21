@@ -87,14 +87,14 @@ public class Facultad {
                         System.out.println("Escuela leyes creada.");
                         informacion += Esc.obtenerInformacion(2,1) + "\n";
                         Escuela = Esc;
-                        Registrado1 = true;
+                        Registrado3 = true;
                     }
                     if((Escuela == null) && (!Registrado4)){
                         Escuela Esc = new Escuela("Normas", 1104, 5890014, "Amanda2");
                         System.out.println("Escuela normas creada.");
                         informacion += Esc.obtenerInformacion(2,2) + "\n";
                         Escuela = Esc;
-                        Registrado2 = true;
+                        Registrado4 = true;
                     }
                 }
             }
