@@ -79,7 +79,6 @@ public class Universidad {
                     if((Facultad == null) && (!Registrado)){
                         Facultad Una = new Facultad("Ingeniería", "Pepito 1", 1101, 5890011);
                         System.out.println("Facultad Ingeniería creada.");
-                        Una.registrarEscuelas(1);
                         Facultad = Una;
                         Registrado = true;
                         informacion += Una.obtenerInformacion(1);
@@ -90,7 +89,6 @@ public class Universidad {
                     if((Facultad == null) && (!Registrado)){
                         Facultad Dos = new Facultad("Derecho", "Pepito 2", 1121, 5890021);
                         System.out.println("Facultad Derecho creada.");
-                        Dos.registrarEscuelas(2);
                         Facultad = Dos;
                         Registrado = true;
                         informacion += Dos.obtenerInformacion(2);

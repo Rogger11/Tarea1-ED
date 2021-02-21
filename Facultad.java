@@ -55,48 +55,6 @@ public class Facultad {
         this.Escuelas = Escuelas;
     }
     
-    public void registrarEscuelas(int facultad){
-        if (facultad == 1){
-            boolean Registrado1 = false;
-            boolean Registrado2 = false;
-            for (Escuela Escuela : Escuelas){
-                if((Escuela == null) && (!Registrado1)){
-                    Escuela Esc = new Escuela("Software", 1103, 5890013, "Fulanito Escuela 11");
-                    System.out.println("Escuela software creada.");
-                    Esc.registrarProfesores(1,1);
-                    Escuela = Esc;
-                    Registrado1 = true;
-                }
-                if((Escuela == null) && (!Registrado2)){
-                    Escuela Esc = new Escuela("Informatica", 1104, 5890014, "Fulanito Escuela 12");
-                    System.out.println("Escuela informatica creada.");
-                    Esc.registrarProfesores(1,2);
-                    Escuela = Esc;
-                    Registrado2 = true;
-                }
-            }
-        }else{
-            boolean Registrado1 = false;
-            boolean Registrado2 = false;
-            for (Escuela Escuela : Escuelas){
-                if((Escuela == null) && (!Registrado1)){
-                    Escuela Esc = new Escuela("Leyes", 1123, 5890023, "Fulanito Escuela 21");
-                    System.out.println("Escuela leyes creada.");
-                    Esc.registrarProfesores(2,1);
-                    Escuela = Esc;
-                    Registrado1 = true;
-                }
-                if((Escuela == null) && (!Registrado2)){
-                    Escuela Esc = new Escuela("Normas", 1104, 5890014, "Fulanito Escuela 22");
-                    System.out.println("Escuela normas creada.");
-                    Esc.registrarProfesores(2,2);
-                    Escuela = Esc;
-                    Registrado2 = true;
-                }
-            }
-        }
-    }
-    
     public String obtenerInformacion(int facultad){
         String informacion = "Facultad: "+Nombre+" Decano: "+NombreDecano+" Oficina: " +Oficina+ " Tel: " +Telefono+ "\n";
         boolean Registrado1 = false;
