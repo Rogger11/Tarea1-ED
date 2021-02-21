@@ -102,3 +102,8 @@ public class Universidad {
     }
 }
 
+/* Desarrollado por:
+    Juan Diego López Botero
+    Hamilton Andrés Echeverri Guzmán
+*/
+

@@ -30,3 +30,9 @@ public class Profesor {
         return informacion;
     }
 }
+
+
+/* Desarrollado por:
+    Juan Diego López Botero
+    Hamilton Andrés Echeverri Guzmán
+*/

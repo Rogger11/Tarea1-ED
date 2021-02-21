@@ -11,3 +11,8 @@ public class App {
         JOptionPane.showMessageDialog(null, info);
     }
 }
+
+/* Desarrollado por:
+    Juan Diego López Botero
+    Hamilton Andrés Echeverri Guzmán
+*/
