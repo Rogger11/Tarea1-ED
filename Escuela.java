@@ -72,14 +72,14 @@ public class Escuela {
                 if (facultad == 1){
                     if(escuela == 1){
                         if(Profesor == null && !Registrado1){
-                            Profesor nuevo = new Profesor("Profe 1", "profe@software.com");
+                            Profesor nuevo = new Profesor("Pedro", "profe@software.com");
                             Profesor = nuevo;
                             Registrado1 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 1 software creado.");
                         }
                         if(Profesor == null && !Registrado2){
-                            Profesor nuevo = new Profesor("Profe 2", "profe@software.com");
+                            Profesor nuevo = new Profesor("Albert", "profe@software.com");
                             Profesor = nuevo;
                             Registrado2 = true;
                             informacion += nuevo.obtenerInformacion();
@@ -87,48 +87,50 @@ public class Escuela {
                         }
                     }else{
                         if(Profesor == null && !Registrado3){
-                            Profesor nuevo = new Profesor("Profe 1", "profe@Informatica.com");
+                            Profesor nuevo = new Profesor("Sergio", "profe@Informatica.com");
                             Profesor = nuevo;
-                            Registrado1 = true;
+                            Registrado3 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 1 Informatica creado.");
                         }
                         if(Profesor == null && !Registrado4){
-                            Profesor nuevo = new Profesor("Profe 2", "profe@Informatica.com");
+                            Profesor nuevo = new Profesor("Alejandro", "profe@Informatica.com");
                             Profesor = nuevo;
-                            Registrado2 = true;
+                            Registrado4 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 2 Informatica creado.");
                         }
                     }
                 }else{
+                    
                     if(escuela == 1){
                         if(Profesor == null && !Registrado5){
-                            Profesor nuevo = new Profesor("Profe 1", "profe@Leyes.com");
+                            Profesor nuevo = new Profesor("Leyda", "profe@Leyes.com");
                             Profesor = nuevo;
-                            Registrado1 = true;
+                            Registrado5 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 1 Leyes creado.");
                         }
                         if(Profesor == null && !Registrado6){
-                            Profesor nuevo = new Profesor("Profe 2", "profe@Leyes.com");
+                            Profesor nuevo = new Profesor("Angela", "profe@Leyes.com");
                             Profesor = nuevo;
-                            Registrado2 = true;
+                            Registrado6 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 2 Leyes creado.");
                         }
                     }else{
                         if(Profesor == null && !Registrado7){
-                            Profesor nuevo = new Profesor("Profe 1", "profe@Normas.com");
+                            Profesor nuevo = new Profesor("Andrea", "profe@Normas.com");
                             Profesor = nuevo;
-                            Registrado1 = true;
+                            Registrado7 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 1 Normas creado.");
                         }
-                        if(Profesor == null && !Registrado8){
-                            Profesor nuevo = new Profesor("Profe 2", "profe@Normas.com");
+                        
+                           if(Profesor == null && !Registrado8){
+                            Profesor nuevo = new Profesor("Alan", "profe@Normas.com");
                             Profesor = nuevo;
-                            Registrado2 = true;
+                            Registrado8 = true;
                             informacion += nuevo.obtenerInformacion();
                             System.out.println("Profe 2 Normas creado.");
                         }
